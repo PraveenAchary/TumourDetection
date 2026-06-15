@@ -1,4 +1,3 @@
-Understood! Here is your refined README.md file, now with a professional touch and a dash of medical flair 👨‍⚕️🩺.
 
 🩺 Tumour Detection & Classification System 🔬
 A full-stack web application designed to assist in medical imaging analysis. This system uses a deep learning model to classify medical scans and provides an intuitive, user-friendly interface for clinicians. 👨‍⚕️
