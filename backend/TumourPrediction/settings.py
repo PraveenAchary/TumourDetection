@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-n)5_m--k8&)=)g75(3shc+_h(%3tim9%fk$#kq!+&-35qjuwnd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -55,6 +55,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'TumourPrediction.urls'
 
 CORS_ALLOWED_ORIGINS = [
+    "*",
     "http://localhost:5173",
 ]
 
