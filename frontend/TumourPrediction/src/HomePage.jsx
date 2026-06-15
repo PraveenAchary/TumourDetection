@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 export default function HomePage() {
-    const URL = "http://127.0.0.1:8000";
+    const URL = "https://tumourdetection.onrender.com/";
     const [image, setImage] = useState(null);
     const [name, setName] = useState("");
     // New state for storing the result
