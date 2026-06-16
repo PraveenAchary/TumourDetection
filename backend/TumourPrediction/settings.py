@@ -54,11 +54,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'TumourPrediction.urls'
 
-CORS_ALLOWED_ORIGINS = [
-    "https://tumour-detection-two.vercel.app",
-    "*",
-    "http://localhost:5173",
-]
+# Option A - Allow all origins (easiest for development)
+CORS_ALLOW_ALL_ORIGINS = True
 
 TEMPLATES = [
     {
